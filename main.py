@@ -131,11 +131,9 @@ plates_list = ['HH9901CC', 'CA9150WC', 'BH7144WB', 'AI7665KU', 'AI8045DS', 'HH12
 var_s = set(plates_list)
 print("Unique numbers in the list are:", len(var_s))
 var = input("Input number ")
-# var_0 = str.upper(var)
-# var_1 = var_0 in (plates_list)
-# print("List contains number: ", var_1)
-# var_3 = int(var[2:6])
-# print("Sum of digits is ", sum(map(int, str(var_3))))
+var_0 = str.upper(var)
+var_1 = var_0 in (plates_list)
+print("List contains number: ", var_1)
 
 result = func1(var)
 
